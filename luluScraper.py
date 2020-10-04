@@ -6,10 +6,10 @@ class ProductDetails(scrapy.Item):
         priceAED = scrapy.Field()
         stockAvailability = scrapy.Field()
 
-class MatchesFashionSprider(scrapy.Spider):
+class LuluSprider(scrapy.Spider):
 
    #name of spider
-    name = 'matches_fashion'
+    name = 'luluscraper'
 
     custom_settings = {
         'FEED_FORMAT': 'csv',
