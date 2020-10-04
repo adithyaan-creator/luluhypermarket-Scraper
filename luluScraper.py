@@ -1,10 +1,10 @@
 import scrapy
 
 class ProductDetails(scrapy.Item):
-        itemName = scrapy.Field()
-        brandName = scrapy.Field()
-        priceAED = scrapy.Field()
-        stockAvailability = scrapy.Field()
+    itemName = scrapy.Field()
+    brandName = scrapy.Field()
+    priceAED = scrapy.Field()
+    stockAvailability = scrapy.Field()
 
 class LuluSprider(scrapy.Spider):
 
